@@ -18,8 +18,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="Le6-vH-9h8">
+                                <rect key="frame" x="-20.5" y="172" width="416" height="242"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HgF-iO-y2B">
-                                <rect key="frame" x="8" y="333" width="359" height="21"/>
+                                <rect key="frame" x="166.5" y="444" width="42" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="p0G-IJ-odk"/>
                                 </constraints>
@@ -27,18 +30,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="Le6-vH-9h8">
-                                <rect key="frame" x="-20.5" y="110" width="416" height="179"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="HgF-iO-y2B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="2GA-ZT-u1R"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Le6-vH-9h8" secondAttribute="bottom" constant="378" id="DI3-Gr-ZD7"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HgF-iO-y2B" secondAttribute="trailing" constant="8" id="I6E-ZV-i7K"/>
-                            <constraint firstItem="Le6-vH-9h8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="ez7-2I-xFV"/>
-                            <constraint firstItem="HgF-iO-y2B" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="flH-AH-XvC"/>
-                            <constraint firstItem="Le6-vH-9h8" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="yPh-vp-18M"/>
+                            <constraint firstItem="Le6-vH-9h8" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="DmS-0v-U4g"/>
+                            <constraint firstItem="Le6-vH-9h8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.5" id="QoD-He-I4g"/>
+                            <constraint firstItem="HgF-iO-y2B" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ULS-oi-D0A"/>
+                            <constraint firstItem="HgF-iO-y2B" firstAttribute="top" secondItem="Le6-vH-9h8" secondAttribute="bottom" constant="30" id="y0w-bb-gWd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

@@ -15,6 +15,7 @@ class CatTableViewController: UITableViewController {
     var cats = [Cat]()
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadSampleCats()
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false

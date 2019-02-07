@@ -12,6 +12,8 @@
 		1F52190321E14A7600B198C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F52190121E14A7600B198C8 /* Main.storyboard */; };
 		1F52190521E14A7800B198C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F52190421E14A7800B198C8 /* Assets.xcassets */; };
 		1F52190821E14A7800B198C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F52190621E14A7800B198C8 /* LaunchScreen.storyboard */; };
+		1FCBB86D220BD93F001FC31C /* CatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCBB86C220BD93F001FC31C /* CatTableViewCell.swift */; };
+		1FCBB86F220BDD9D001FC31C /* CatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCBB86E220BDD9D001FC31C /* CatTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1F52190421E14A7800B198C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F52190721E14A7800B198C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F52190921E14A7800B198C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FCBB86C220BD93F001FC31C /* CatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTableViewCell.swift; sourceTree = "<group>"; };
+		1FCBB86E220BDD9D001FC31C /* CatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				1F5218FD21E14A7600B198C8 /* AppDelegate.swift */,
 				1F5218FF21E14A7600B198C8 /* ViewController.swift */,
+				1FCBB86C220BD93F001FC31C /* CatTableViewCell.swift */,
+				1FCBB86E220BDD9D001FC31C /* CatTableViewController.swift */,
 				1F52190121E14A7600B198C8 /* Main.storyboard */,
 				1F52190421E14A7800B198C8 /* Assets.xcassets */,
 				1F52190621E14A7800B198C8 /* LaunchScreen.storyboard */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F52190021E14A7600B198C8 /* ViewController.swift in Sources */,
+				1FCBB86D220BD93F001FC31C /* CatTableViewCell.swift in Sources */,
+				1FCBB86F220BDD9D001FC31C /* CatTableViewController.swift in Sources */,
 				1F5218FE21E14A7600B198C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
